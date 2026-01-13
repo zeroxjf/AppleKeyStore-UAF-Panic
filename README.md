@@ -21,13 +21,6 @@ CVE: Pending | Author: [@zeroxjf](https://x.com/zeroxjf)
 | Component | `com.apple.driver.AppleSEPKeyStore` |
 | Kernel | Darwin 25.1.0 (xnu-12377.42.6) |
 
-## Tested
-
-- iPhone 11 Pro Max
-- iPhone 17 Pro Max
-- MacBook Pro (M2 Max)
-- MacBook Pro (M4 Max)
-
 ## Vulnerability
 
 Use-after-free in IOCommandGate triggered via AppleSEPKeyStore. The kernel detects modification of a freed element at offset 72, indicating memory corruption after deallocation. This is a race condition where the command gate's internal state is accessed after being freed.
@@ -105,3 +98,10 @@ clang -framework Foundation -framework IOKit poc.m -o poc
 4. Tap **SEP PANIC** button
 
 The iOS app provides a single red button that triggers the SEP exhaustion. Device will panic around call #41.
+
+## Tested
+
+- iPhone 11 Pro Max
+- iPhone 17 Pro Max
+- MacBook Pro (M2 Max)
+- MacBook Pro (M4 Max)
