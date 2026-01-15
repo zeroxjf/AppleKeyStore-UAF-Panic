@@ -1,4 +1,4 @@
-// AppleKeyStore SEP Panic PoC
+// AppleSEPKeyStore UAF Panic PoC
 // CVE: Pending | Author: @zeroxjf
 // Target: iOS 26.1-26.2, macOS 26.1-26.2
 
@@ -15,7 +15,7 @@
 int main(int argc, char* argv[]) {
     @autoreleasepool {
         printf("========================================\n");
-        printf("  AppleKeyStore SEP Panic PoC\n");
+        printf("  AppleSEPKeyStore UAF Panic PoC\n");
         printf("  Author: @zeroxjf\n");
         printf("========================================\n\n");
 
