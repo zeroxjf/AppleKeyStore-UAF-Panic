@@ -216,8 +216,6 @@ This confirms the UAF trigger: any path that terminates the AppleKeyStore servic
 - `poc.m` - Standalone macOS proof of concept
 - `ios-app/` - iOS app with one-tap trigger
 - `panic.log` - Full kernel panic log from iOS device
-- `kexts/` - Extracted kernel extensions from kernelcache
-- `EXPLOITATION_ANALYSIS.md` - Full reverse engineering and exploitation analysis
 
 ## Building
 
@@ -238,8 +236,6 @@ clang -framework Foundation -framework IOKit poc.m -o poc
 The iOS app provides a single red button that triggers the SEP exhaustion. Device will panic around call #41.
 
 ## Exploitation Status
-
-See [EXPLOITATION_ANALYSIS.md](EXPLOITATION_ANALYSIS.md) for full details.
 
 ### Summary
 
