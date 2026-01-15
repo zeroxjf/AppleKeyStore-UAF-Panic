@@ -1,10 +1,10 @@
 MIT License with Attribution Requirement for Security Research
 
-Copyright (c) 2026 Johnny Franks (@zeroxjf)
+Copyright (c) 2026 @zeroxjf
 
 VULNERABILITY DISCLOSURE NOTICE:
 This security research documents a vulnerability submitted to Apple Security
-under responsible disclosure. CVE assignment is pending.
+under responsible disclosure.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,7 +19,7 @@ furnished to do so, subject to the following conditions:
 2. ATTRIBUTION REQUIREMENT: Any use, reference, or derivative work based on
    this research MUST provide clear attribution to the original author:
 
-   Johnny Franks (@zeroxjf)
+   @zeroxjf
 
    This includes but is not limited to:
    - Academic papers or publications
@@ -29,7 +29,7 @@ furnished to do so, subject to the following conditions:
    - News coverage or reporting
 
 3. DISCOVERY CREDIT: The vulnerability described herein was independently
-   discovered and reported by Johnny Franks (@zeroxjf). Any claim of independent
+   discovered and reported by @zeroxjf. Any claim of independent
    discovery must be verifiable with Apple Security prior to the public
    disclosure date of this repository.
 

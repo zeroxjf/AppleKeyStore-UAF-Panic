@@ -1,6 +1,6 @@
 # AppleSEPKeyStore Use-After-Free Panic
 
-CVE: Pending | Author: [@zeroxjf](https://x.com/zeroxjf)
+Author: [@zeroxjf](https://x.com/zeroxjf)
 
 ## Warning
 

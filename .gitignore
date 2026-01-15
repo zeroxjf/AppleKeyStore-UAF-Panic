@@ -1,0 +1,12 @@
+# Compiled binaries
+poc
+*.o
+*.dSYM/
+
+# macOS
+.DS_Store
+
+# Xcode
+ios-app/build/
+ios-app/DerivedData/
+*.xcuserstate

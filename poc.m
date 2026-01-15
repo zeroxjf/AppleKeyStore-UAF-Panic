@@ -1,5 +1,5 @@
 // AppleSEPKeyStore UAF Panic PoC
-// CVE: Pending | Author: @zeroxjf
+// Author: @zeroxjf
 // Target: iOS 26.1-26.2, macOS 26.1-26.2
 
 #import <Foundation/Foundation.h>
